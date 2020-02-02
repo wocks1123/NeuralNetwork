@@ -59,9 +59,9 @@ public:
 		return dL * W.getTranspose();
 	}
 
-	virtual void update(size_t learningRate) override
+	virtual void update(float learningRate) override
 	{
-		this->W = this->W - (learningRate * this->delta);
+		this->W = this->W - (this->delta * learningRate);
 	}
 
 };
