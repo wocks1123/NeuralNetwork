@@ -5,11 +5,11 @@ cmake_minimum_required(VERSION 3.8.2 FATAL_ERROR)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMake")
 
 # Declare project
-# project(Main)
+project(Main)
+project(CudaTest)
 project(Exclam)
-#project(CudaTest)
-project(CudaTest LANGUAGES CUDA CXX)
-project(Main LANGUAGES CUDA CXX)
+# project(CudaTest LANGUAGES CUDA CXX)
+# project(Main LANGUAGES CUDA CXX)
 
 # Set output directories
 set(DEFAULT_CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_LIBRARY_OUTPUT_DIRECTORY})

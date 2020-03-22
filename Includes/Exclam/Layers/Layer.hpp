@@ -3,8 +3,8 @@
 #include <cstdio>
 #include <cstdlib>
 
-#include "Common.h"
-#include "Blob.h"
+#include "Exclam/Utils/Common.h"
+#include "Exclam/Utils/Blob.hpp"
 
 #ifndef _JCEXCLAM_LAYER_H_
 #define _JCEXCLAM_LAYER_H_

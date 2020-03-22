@@ -4,9 +4,10 @@
 #include <cstdlib>
 #include <memory>
 #include <string>
+#include <cstring>
 
-#include "Common.h"
-#include "Util.h"
+#include "Exclam/Common.h"
+#include "Exclam/Utils/Utils.h"
 
 #ifndef _JCEXCLAM_BLOB_H_
 #define _JCEXCLAM_BLOB_H_
