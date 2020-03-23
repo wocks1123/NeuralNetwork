@@ -60,7 +60,7 @@ int main()
 
     CudaTest gpuacc;
     gpuacc.sum_cpu(a, b, &c);
-    gpuacc.sum_gpu(a, b, &cu);
+    //gpuacc.sum_gpu(a, b, &cu);
 
     printf("1CPU Result : %d\n", c);
     printf("1GPU Result : %d\n", cu);

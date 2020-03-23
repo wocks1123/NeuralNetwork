@@ -28,7 +28,7 @@ install:
 before_build:
   - md C:\Exclam\build
   - cd C:\Exclam\build
-  - cmake .. -G "%CMAKE_GENERATOR%" -A x64 "-DCMAKE_CXX_FLAGS=/w"
+  - cmake .. -G "%CMAKE_GENERATOR%" -A x64 
 
 build:
   project: C:\Exclam\build\Exclam.sln

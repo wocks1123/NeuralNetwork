@@ -4,6 +4,7 @@
 
 #include "Exclam/Common.h"
 #include "Exclam/Layers/Layer.hpp"
+#include "Exclam/Utils/Blob.hpp"
 
 #ifndef _JCEXCLAM_LINEAR_LAYER_HPP_
 #define _JCEXCLAM_LINEAR_LAYER_HPP_

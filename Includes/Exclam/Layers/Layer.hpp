@@ -31,7 +31,7 @@ public:
 
 	virtual Blob<T> foward(const Blob<T>& x) = 0;
 	virtual Blob<T> backward(const Blob<T>& dL, const Blob<T>& x) = 0;
-	virtual void update(float learningRate) {};	// 업데이트가 없는 레이어도 있다.
+	virtual void update(float learningRate) { learningRate += 1; };	// 업데이트가 없는 레이어도 있다.
 };
 
 NAME_SPACE_E

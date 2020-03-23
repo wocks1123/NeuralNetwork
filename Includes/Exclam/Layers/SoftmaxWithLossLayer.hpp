@@ -6,6 +6,7 @@
 
 #include "Exclam/Common.h"
 #include "Exclam/Layers/Layer.hpp"
+#include "Exclam/Utils/Blob.hpp"
 
 #ifndef _JCEXCLAM_SOFTMAX_WITH_LOSS_LAYER_HPP_
 #define _JCEXCLAM_SOFTMAX_WITH_LOSS_LAYER_HPP_
@@ -86,9 +87,15 @@ public:
 
 	virtual Blob<T> backward(const Blob<T>& dL, const Blob<T>& x) override
 	{
-		return p;
+		Blob<T> t(x);
+		return dL;
 	}
 
+	virtual void update(float learningRate) override
+	{
+		learningRate = 1;
+		//this->W = this->W - (this->delta * learningRate);
+	}
 
 };
 
