@@ -9,8 +9,8 @@
 #include "Exclam/Common.h"
 #include "Exclam/Utils/Utils.h"
 
-#ifndef _JCEXCLAM_BLOB_H_
-#define _JCEXCLAM_BLOB_H_
+#ifndef _JCEXCLAM_BLOB_HPP_
+#define _JCEXCLAM_BLOB_HPP_
 
 NAME_SPACE_S
 

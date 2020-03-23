@@ -3,11 +3,11 @@
 #include <cstdio>
 #include <cstdlib>
 
-#include "Exclam/Utils/Common.h"
+#include "Exclam/Common.h"
 #include "Exclam/Utils/Blob.hpp"
 
-#ifndef _JCEXCLAM_LAYER_H_
-#define _JCEXCLAM_LAYER_H_
+#ifndef _JCEXCLAM_LAYER_HPP_
+#define _JCEXCLAM_LAYER_HPP_
 
 NAME_SPACE_S
 
