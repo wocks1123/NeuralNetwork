@@ -5,7 +5,7 @@
 #include <vector>
 
 #include "Exclam/Common.h"
-#include "Exclam/Layers/Layer.h"
+#include "Exclam/Layers/Layer.hpp"
 
 #ifndef _JCEXCLAM_SOFTMAX_WITH_LOSS_LAYER_HPP_
 #define _JCEXCLAM_SOFTMAX_WITH_LOSS_LAYER_HPP_

@@ -54,13 +54,13 @@ public:
 
 int main()
 {
-    int a = 3, b = 4, c = 0, cu = 0;
+    int a = 2, b = 8, c = 0, cu = 0;
 
     c = sum_int(a, b);
 
     CudaTest gpuacc;
     gpuacc.sum_cpu(a, b, &c);
-    //gpuacc.sum_gpu(a, b, &cu);
+    gpuacc.sum_gpu(a, b, &cu);
 
     printf("1CPU Result : %d\n", c);
     printf("1GPU Result : %d\n", cu);

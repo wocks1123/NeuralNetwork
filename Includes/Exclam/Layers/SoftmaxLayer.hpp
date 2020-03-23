@@ -4,7 +4,7 @@
 #include <cmath>
 
 #include "Exclam/Common.h"
-#include "Exclam/Layers/Layer.h"
+#include "Exclam/Layers/Layer.hpp"
 
 #ifndef _JCEXCLAM_SOFTMAX_LAYER_
 #define _JCEXCLAM_SOFTMAX_LAYER_
