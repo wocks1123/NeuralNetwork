@@ -9,7 +9,7 @@ matrix:
       compiler: gcc
       script:
         - sh BuildScripts/travis_build.sh
-	- name: Ubuntu 18.04 LTS + gcc
+    - name: Ubuntu 18.04 LTS + gcc
       os: linux
       dist: bionic
       sudo: required
