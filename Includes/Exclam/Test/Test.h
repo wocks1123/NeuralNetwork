@@ -1,9 +1,12 @@
+#pragma once
 
 #include "Exclam/Common.h"
 #include "Exclam/Utils/Blob.hpp"
 #include "Exclam/Layers/LinearLayer.hpp"
 #include "Exclam/Layers/SoftmaxWithLossLayer.hpp"
 
+#ifndef _JCEXCLAM_TEST_HPP_
+#define _JCEXCLAM_TEST_HPP_
 
 #define ARR_I_J(arr, i, row_len, j) arr[i * row_len + j]
 
@@ -90,3 +93,5 @@ void SOFT_MAX_TEST()
 
 
 }
+
+#endif
